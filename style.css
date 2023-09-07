@@ -59,3 +59,62 @@ section {
   text-transform: uppercase;
   color: white;
 }
+
+/* form */
+
+form {
+  border-radius: 10px;
+  background-color: red;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  /* align-items:flex-start; */
+  justify-content: center;
+}
+
+
+input[type="tel"]  {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  /* border: none; */
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expiration-ccv {
+  
+}
+
+/* .cvc {
+  text-align: right;
+}
+
+.cvc-input {
+  float: right;
+} */
+
+select {
+  width: 70px;
+  height: 30px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(19, 197, 241);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
